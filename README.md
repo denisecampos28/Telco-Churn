@@ -238,4 +238,56 @@ Future improvements could include:
 - Incorporating customer service interaction data  
 - Adding time-based behavioral features  
 - Testing retention strategies  
-- Monitoring model performance over time  
+- Monitoring model performance over time
+
+
+## Tools and Libraries Used
+
+The project was developed using the following tools:
+
+- **Python** – primary programming language  
+- **pandas** – data manipulation and preprocessing  
+- **numpy** – numerical operations  
+- **scikit-learn** – modeling, preprocessing pipelines, and evaluation  
+- **imblearn (SMOTE)** – handling class imbalance  
+- **XGBoost** – gradient boosting model for comparison  
+- **SHAP** – model interpretability and feature contribution analysis  
+- **matplotlib / seaborn** – data visualization  
+- **joblib** – model saving and loading  
+- **Jupyter Notebook** – development environment
+
+  ### Notebooks
+
+- `01_data_understanding.ipynb`  
+  Initial exploration of the dataset, including structure, variable types, and basic summaries to understand the data.
+
+- `02_data_cleaning.ipynb`  
+  Data preprocessing steps, including handling missing values, removing leakage variables, feature selection, and encoding.
+
+- `03_baseline_modeling.ipynb`  
+  Development of the baseline Logistic Regression model, including preprocessing pipeline, SMOTE implementation, and initial evaluation.
+
+- `xgboost_telcodata.ipynb`  
+  Preparation of the dataset specifically for tree-based modeling, including encoding and feature setup for XGBoost.
+
+- `xgboost_featureengineering.ipynb`  
+  Additional feature engineering for the XGBoost model, focusing on improving predictive performance through behavioral features.
+
+- `xgboost_model_deployment.ipynb`  
+  Final XGBoost model training, tuning, evaluation, and preparation for deployment.
+
+---
+
+## Workflow Summary
+
+The project follows a structured pipeline:
+
+1. Data understanding  
+2. Data cleaning and preprocessing  
+3. Feature engineering  
+4. Model development (Logistic Regression and XGBoost)  
+5. Model evaluation  
+6. Model interpretation (SHAP)  
+7. Deployment preparation  
+
+This structure ensures the project is reproducible, interpretable, and aligned with real-world machine learning practices.
