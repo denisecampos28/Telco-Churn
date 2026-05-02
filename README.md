@@ -274,6 +274,12 @@ The project was developed using the following tools:
   Additional feature engineering for the XGBoost model, focusing on improving predictive performance through behavioral features.
 
 - `xgboost_model_deployment.ipynb`  
+  XGBoost deployment procedures.
+
+- `app.py`  
+  Streamlit app.
+
+ - `churn_xgb_model.joblib`  
   Final XGBoost model training, tuning, evaluation, and preparation for deployment.
 
 ---
@@ -288,6 +294,6 @@ The project follows a structured pipeline:
 4. Model development (Logistic Regression and XGBoost)  
 5. Model evaluation  
 6. Model interpretation (SHAP)  
-7. Deployment preparation  
+7. Deployment 
 
 This structure ensures the project is reproducible, interpretable, and aligned with real-world machine learning practices.
