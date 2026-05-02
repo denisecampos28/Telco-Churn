@@ -52,6 +52,13 @@ Removed variables included:
   - Total Charges  
   - Total Revenue  
 
+
+
+<img width="631" height="539" alt="Unknown-3" src="https://github.com/user-attachments/assets/d7614748-9551-4c5d-bb61-2d692e6a9852" />
+
+
+
+
 ---
 
 ### Feature Engineering
@@ -88,6 +95,10 @@ All preprocessing steps were implemented within a pipeline to prevent leakage.
 ### Class Imbalance
 
 SMOTE was applied to the training data to address class imbalance and improve the model’s ability to learn churn patterns.
+
+
+<img width="580" height="455" alt="Unknown-2" src="https://github.com/user-attachments/assets/a98d78ee-b088-4f3a-8c72-b718dbaca607" />
+
 
 ---
 
@@ -135,6 +146,8 @@ The model is designed to prioritize recall while maintaining reasonable precisio
 
 
 <img width="846" height="547" alt="Unknown" src="https://github.com/user-attachments/assets/cbc5969f-67e5-40fa-bbd4-119e8ff13ce4" />
+
+
 
 
 
